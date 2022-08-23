@@ -1,0 +1,100 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="vn.finalpha.app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\Admin\Documents\project\socket_login_demo\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\Admin\Documents\project\socket_login_demo\android\app\src\debug\AndroidManifest.xml:6:22-64
+15
+16    <application
+17        android:name="android.app.Application"
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.6.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5b261dda35586dd23c1281dcc7d56eb6\core-1.6.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+21        android:label="socket_login_demo" >
+22        <activity
+23            android:name="vn.finalpha.app.MainActivity"
+24            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+25            android:exported="true"
+26            android:hardwareAccelerated="true"
+27            android:launchMode="singleTop"
+28            android:theme="@style/LaunchTheme"
+29            android:windowSoftInputMode="adjustResize" >
+30
+31            <!--
+32                 Specifies an Android theme to apply to this Activity as soon as
+33                 the Android process has started. This theme is visible to the user
+34                 while the Flutter UI initializes. After that, this theme continues
+35                 to determine the Window background behind the Flutter UI.
+36            -->
+37            <meta-data
+38                android:name="io.flutter.embedding.android.NormalTheme"
+39                android:resource="@style/NormalTheme" />
+40
+41            <intent-filter>
+42                <action android:name="android.intent.action.MAIN" />
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+45            </intent-filter>
+46        </activity>
+47        <!--
+48             Don't delete the meta-data below.
+49             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+50        -->
+51        <meta-data
+52            android:name="flutterEmbedding"
+53            android:value="2" />
+54
+55        <activity
+55-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\638b454338aa074b5769d1e8c2ee211c\jetified-play-services-auth-20.0.1\AndroidManifest.xml:23:9-27:75
+56            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+56-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\638b454338aa074b5769d1e8c2ee211c\jetified-play-services-auth-20.0.1\AndroidManifest.xml:24:13-93
+57            android:excludeFromRecents="true"
+57-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\638b454338aa074b5769d1e8c2ee211c\jetified-play-services-auth-20.0.1\AndroidManifest.xml:25:13-46
+58            android:exported="false"
+58-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\638b454338aa074b5769d1e8c2ee211c\jetified-play-services-auth-20.0.1\AndroidManifest.xml:26:13-37
+59            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+59-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\638b454338aa074b5769d1e8c2ee211c\jetified-play-services-auth-20.0.1\AndroidManifest.xml:27:13-72
+60        <!--
+61            Service handling Google Sign-In user revocation. For apps that do not integrate with
+62            Google Sign-In, this service will never be started.
+63        -->
+64        <service
+64-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\638b454338aa074b5769d1e8c2ee211c\jetified-play-services-auth-20.0.1\AndroidManifest.xml:33:9-37:51
+65            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+65-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\638b454338aa074b5769d1e8c2ee211c\jetified-play-services-auth-20.0.1\AndroidManifest.xml:34:13-89
+66            android:exported="true"
+66-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\638b454338aa074b5769d1e8c2ee211c\jetified-play-services-auth-20.0.1\AndroidManifest.xml:35:13-36
+67            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+67-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\638b454338aa074b5769d1e8c2ee211c\jetified-play-services-auth-20.0.1\AndroidManifest.xml:36:13-107
+68            android:visibleToInstantApps="true" />
+68-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\638b454338aa074b5769d1e8c2ee211c\jetified-play-services-auth-20.0.1\AndroidManifest.xml:37:13-48
+69
+70        <activity
+70-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\6c95ecdd0421ac09e7a5c5b617223003\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+71            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+71-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\6c95ecdd0421ac09e7a5c5b617223003\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+72            android:exported="false"
+72-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\6c95ecdd0421ac09e7a5c5b617223003\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+73            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+73-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\6c95ecdd0421ac09e7a5c5b617223003\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+74
+75        <meta-data
+75-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\221958a2850fc187375eefc775895268\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+76            android:name="com.google.android.gms.version"
+76-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\221958a2850fc187375eefc775895268\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+77            android:value="@integer/google_play_services_version" />
+77-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\221958a2850fc187375eefc775895268\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+78    </application>
+79
+80</manifest>

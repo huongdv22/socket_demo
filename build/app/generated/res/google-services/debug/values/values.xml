@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">814078561418-oljdpjqo9gm5u33ut29ocp87lqqcvumm.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">814078561418</string>
+    <string name="google_api_key" translatable="false">AIzaSyDcktz0b9LnltZ49XowD9ZZn_CbeVqvg9s</string>
+    <string name="google_app_id" translatable="false">1:814078561418:android:36917cb16e13e63e39b173</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDcktz0b9LnltZ49XowD9ZZn_CbeVqvg9s</string>
+    <string name="google_storage_bucket" translatable="false">fin-alpha.appspot.com</string>
+    <string name="project_id" translatable="false">fin-alpha</string>
+</resources>

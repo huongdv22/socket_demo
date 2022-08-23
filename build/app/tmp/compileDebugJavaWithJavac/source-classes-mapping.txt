@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+vn/finalpha/app/BuildConfig.java
+ vn.finalpha.app.BuildConfig
